@@ -11,7 +11,7 @@ main{
     line-height: 25px;
     font-size: 10px;
     font-family: Roboto, Arial, serif;
-    border: 2px solid black;
+    //border: 2px solid black;
     margin: 0px 0px 0px 24px;
     padding: 24px 24px 0px 0px;
     color: black;
@@ -20,9 +20,10 @@ main{
 .videoplayer__item{
     width: 100%;
     display: block;
-    border: 2px solid blue;
+    //border: 2px solid blue;
 }
 .description {
+    border-bottom: 1px solid grey;
     display: flex;
     flex-direction: column;
     padding: 20px 0px 8px;
@@ -31,7 +32,7 @@ main{
 .description__upper{
     flex: 1 1 100%;
     flex-wrap: wrap;
-    border: 1px solid black;
+    //border: 1px solid black;
     h3 {
         color: #030303;
         font-size: 18px;
@@ -49,7 +50,7 @@ main{
 .description__left{
     flex: 1 1 50%;
     
-    border: 1px solid black;
+    //border: 1px solid black;
     p {
         color: #606060;
         font-size: 14px;
@@ -58,18 +59,32 @@ main{
 
 .description__right{
     display: flex;
-    border: 1px solid black;
+    //border: 1px solid black;
     flex: 1 1 50%;
     align-items: flex-end;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
         li {
-            padding: 0px 8px 0px 0px;
-            font-size: 13px;
             font-weight: 600;
-            a {color: #606060;}
+            a { 
+                color: #606060;
+                font-size: 13px;
+            }
         list-style-type: none;
         display: inline-block;
+        padding: 0px 8px 0px 20px;
         }
+}
+
+.channel {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.channel__upper{
+    width: 100%;
+
 }
