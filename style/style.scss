@@ -8,6 +8,7 @@ header {
 main{
     display: block;
     width: 65%;
+    line-height: 25px;
     font-size: 10px;
     font-family: Roboto, Arial, serif;
     border: 2px solid black;
@@ -34,17 +35,41 @@ main{
     h3 {
         color: #030303;
         font-size: 18px;
+        font-weight: 400;
     }
 }
 
 .description__down{
+    display: flex;
+    flex-direction: row;
     flex: 1 1 100%;
+    
 }
 
 .description__left{
+    flex: 1 1 50%;
+    
     border: 1px solid black;
     p {
         color: #606060;
         font-size: 14px;
     }
+}
+
+.description__right{
+    display: flex;
+    border: 1px solid black;
+    flex: 1 1 50%;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+        li {
+            padding: 0px 8px 0px 0px;
+            font-size: 13px;
+            font-weight: 600;
+            a {color: #606060;}
+        list-style-type: none;
+        display: inline-block;
+        }
 }
