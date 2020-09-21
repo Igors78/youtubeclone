@@ -1,8 +1,33 @@
-header {
-    background:#FFFFFF;
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
     background: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
 }
+
+.navbar{
+  background:#FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
+  min-height: 8vh;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+header ul {
+  display: flex;
+  align-content: flex-end;
+
+ }
+
+ #iconify {
+  size: 30px;
+ }

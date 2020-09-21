@@ -7,31 +7,35 @@
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>YouTube Clone</title>
 </head>
 <body>
-    <div class="container">
-
-        <header>
-            <nav class="navbar">
+    
+    <header>
+        <div class="navbar">
                 <div class="navbar__left">
                     <span class="iconify" data-icon="clarity:bars-line" data-inline="false"></span>
-                    <img src="/img/logo.jpg" alt="logo">
-                </div>    
+                    <img src="img/logo.jpg" alt="logo" class="logo">
+                </div>   
+
                 <div class="navbar__center">
                     <input type="searchbox" value="Search">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </div>
-                <div class="navbar__right">
+
+                <!-- <div class="navbar__right"> -->
                     <ul>
-                        <li><a href="#"></a> <img src="/img/cam.jpg" alt="cam"></li>
-                        <li><a href="#"></a> <span class="iconify" data-icon="ic:baseline-apps" data-inline="false"></span></li>
-                        <li><a href="#"></a> <span class="iconify" data-icon="bx:bxs-bell" data-inline="false"></span></li>
-                        <li><a href="#"></a> <img src="/img/Avatar top.jpg" alt="avatar top"></li>
+                    <li><a href="#"></a> <img src="img/cam.jpg" alt="cam"></li>
+                    <li><a href="#"></a> <span class="iconify" data-icon="ic:baseline-apps" data-inline="false"></span></li>
+                    <li><a href="#"></a> <span class="iconify" data-icon="bx:bxs-bell" data-inline="false"></span></li>
+                    <li><a href="#"></a> <img src="img/Avatar top.jpg" alt="avatar top"></li>
                     </ul>
-                </div>
-            </nav>
-        </header>
+                <!-- </div> -->
+        </div>
+    </header>
+
+        <div class="container">  
 
         <main class="videoplayer">
             <section class="videoplayer__item">
@@ -95,6 +99,6 @@
         </main>
         <aside></aside>
         <footer></footer>
-    </div>
+        </div>
 </body>
 </html>
