@@ -1,4 +1,8 @@
 header {
-  background: #e9e5e5;
+    background:#FFFFFF;
+
 }
-/*# sourceMappingURL=style.css.map */
+
+body {
+    background: #EEEEEE;
+}
