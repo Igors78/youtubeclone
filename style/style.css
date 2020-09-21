@@ -128,6 +128,13 @@ main {
 }
 
 .channel__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
@@ -145,6 +152,7 @@ main {
   font-size: 14px;
   font-weight: 600;
   color: #030303;
+  cursor: pointer;
 }
 
 .channel__left p {
@@ -155,9 +163,28 @@ main {
 }
 
 .channel__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
   border: 1px solid black;
+}
+
+.channel__right button {
+  display: inline-block;
+  border: 1px solid black;
+  color: #ffffff;
+  background: #cc0000;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 16px;
+  width: 120px;
+  height: 40px;
+  margin: 10px 0px 0px 0px;
 }
 /*# sourceMappingURL=style.css.map */
