@@ -17,8 +17,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
+  -ms-text-justify: distribute-all-lines;
+   text-justify: distribute-all-lines;
 }
 
 .navbar__left{
@@ -80,13 +80,13 @@ header ul {
   cursor: pointer;
 }
 
-.box{
-  color:white;
-  font-size: 10px;
-  text-align: left;
-  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-  padding: 10px;
+
+.box {
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   width: 400px;
+  height: 130px;
 }
 
 .box1{ background: royalblue;}
@@ -102,12 +102,11 @@ header ul {
 .box11{ background: royalblue;}
 .box12{ background: seagreen;}
 .box13{ background: royalblue;}
-.box14{ background: seagreen;}
-.box15{ background: royalblue;}
+.box14{ background: wheat;}
+.box15{ background: white;}
 
-.containerflex{ 
+.containerflex { 
   display: flex;
-  height: 100vh;
   flex-direction: column;
   float: right;
 }
