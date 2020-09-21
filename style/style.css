@@ -141,3 +141,35 @@ main {
   border: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
+
+.box{
+  color:white;
+  font-size: 10px;
+  text-align: left;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 400px;
+}
+
+.box1{ background: royalblue;}
+.box2{ background: seagreen;}
+.box3{ background: royalblue;}
+.box4{ background: seagreen;}
+.box5{ background: royalblue;}
+.box6{ background: seagreen;}
+.box7{ background: royalblue;}
+.box8{ background: seagreen;}
+.box9{ background: royalblue;}
+.box10{ background: seagreen;}
+.box11{ background: royalblue;}
+.box12{ background: seagreen;}
+.box13{ background: royalblue;}
+.box14{ background: seagreen;}
+.box15{ background: royalblue;}
+
+.containerflex{ 
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  float: right;
+}
