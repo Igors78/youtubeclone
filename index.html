@@ -9,7 +9,7 @@
     <title>YouTube Clone</title>
 </head>
 <body>
-    <main class="container">
+    <div class="container">
 
         <header>
             <nav class="navbar">
@@ -32,40 +32,68 @@
             </nav>
         </header>
 
-        <section class="video">
-            <iframe width="783" height="489" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+        <main class="videoplayer">
+            <section class="videoplayer__item">
+                <iframe width="783" height="489" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
 
-        <article class="description">
-            <div class="description__left">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div class="description__right">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-        </article>
+            <article class="videoplayer__item description">
+                <div class="description__left">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="description__right">
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </article>
 
-        <article class="channel">
-            <div class="channel__left">
-                <p></p>
-                <p></p>
-            </div>
-            <div class="channel__right">
-                <button type="submit">Subscribe</button>
-            </div>
-            <div class="channel__text">
-                <p></p>
-                <a href="#"></a>
-            </div>
-        </article>
+            <article class="videoplayer__item channel">
+                <div class="channel__left">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="channel__right">
+                    <button type="submit">Subscribe</button>
+                </div>
+                <div class="channel__text">
+                    <p></p>
+                    <a href="#">SHOW MORE</a>
+                </div>
+            </article>
 
-    </main>
+            <article class="videoplayer__item comment">
+                <p></p>
+                <a href="#">SORT BY</a>
+            </article>
+
+            <article class="videoplayer__item mycomment">
+                <div class="mycomment__left">
+                    <img src="#" alt="avatar">
+                </div>
+                <div class="mycomment__right">
+                    <input type="text" name="" id="" placeholder="Add a public comment">
+                </div>
+            </article>
+
+            <article class="videoplayer__item usercomment">
+                <div class="usercomment__left">
+                    <img src="#" alt="avatar">
+                </div>
+                <div class="usercomment__right">
+                    
+                </div>
+            </article>
+
+
+        </main>
+        <aside></aside>
+        <footer></footer>
+    </div>
 </body>
 </html>
