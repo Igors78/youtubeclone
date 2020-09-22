@@ -4,10 +4,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/013fb8bd39.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style2.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>YouTube Clone</title>
 </head>
 <body>
     
+    <header>
+        <div class="navbar">
+                <div class="navbar__left">
+                    <span class="iconify" data-icon="clarity:bars-line" data-inline="false"></span>
+                    <img src="img/logo.jpg" alt="logo" class="logo">
+                </div>   
+
+                <div class="wrapper">
+                    <input class="search" type="text" placeholder="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+
+                <div class="navbar__right">
+                    <ul>
+                    <li><a href="#"></a> <img src="img/cam.jpg" alt="cam"></li>
+                    <li><a href="#"></a> <span class="iconify" data-icon="ic:baseline-apps" data-inline="false"></span></li>
+                    <li><a href="#"></a> <span class="iconify" data-icon="bx:bxs-bell" data-inline="false"></span></li>
+                    <li><a href="#"></a> <img src="img/Avatar-top.jpg" alt="avatar top"></li>
+                    </ul>
+                </div>
+        </div>
+    </header>
+
+<div class="container">  
+
+        <main class="videoplayer">
+            <div class="videoplayer__item">
+                <iframe width="768" height="480" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="videoplayer__item description">
+                <div class="description__upper">
+                    <h3>Contributing to Open Source Part I: The Easy Way</h3>
+                </div>
+                <div class="description__down">
+                    <div class="description__left">
+                        <p>60,598 views • Feb 27, 2014</p>
+                    </div>
+                    <div class="description__right">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-thumbs-up"></i>  449</a></li>
+                            <li><a href="#"><i class="fas fa-thumbs-down"></i>  19</a></li>
+                            <li><a href="#"><i class="fas fa-share"></i>  SHARE</a></li>
+                            <li><a href="#"><i class="fas fa-bars"></i>  SAVE</a></li>
+                            <li><a href="#"><i class="fas fa-ellipsis-h"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videoplayer__item channel">
+                <div class="channel__upper">
+                        <div class="channel__left">
+                            <img src="img/channelava.png" alt="avatarsource">
+                            <div>
+                                <a href="#">The Odin Project</a><br>
+                                <p>1.03K subscribers</p>
+                            </div>
+                        </div>
+                        <div class="channel__right">
+                            <button type="submit">SUBSCRIBE</button>
+                        </div>
+                </div>        
+                <div class="channel__text">
+                    <p>How do you contribute to open source?  In this video, I'll describe
+                        the easiest way 
+                        to make a simple contribution to an open source project -- without 
+                        using the command 
+                        line, a text editor, "forking a repo", or 
+                        even touching Git outside of Github.  I'll also describe what 
+                        kinds of contributions 
+                        open 
+                    </p>
+                    <a href="#">SHOW MORE</a>
+                </div>
+            </div>
+
+            <div class="videoplayer__item comment">
+                <p>17 Comments</p>
+                <a href="#"><i class="fas fa-bars"></i>  SORT BY</a>
+            </div>
+
+            <div class="videoplayer__item mycomment">
+                <div class="mycomment__left">
+                    <img src="img/channelava.png" alt="avatarlogo">
+                </div>
+                <div class="mycomment__right">
+                    <input type="text" name="public comment" id="comments" placeholder="Add a public comment...">
+                </div>
+            </div>
+
+            <div class="videoplayer__item usercomment">
+                <div class="dotslink"><i class="fas fa-ellipsis-v"></i></div>
+                <div class="usercomment__left">
+                    <img src="img/channelava.png" alt="avatar">
+                </div>
+                <div class="usercomment__right">
+                    <a href="#"><strong>Users name </strong></a>
+                    <a href="#"> 2 years ago (edited)</a>
+                    
+                    <p>Comment text 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae 
+                        cum fugiat reiciendis, modi sapiente dicta, 
+                        veritatis ex animi, repellat possimus eum nisi provident nam aut et 
+                        quo labore! Similique.
+                    </p>
+                <div class="usercomment__lower">
+                    <a href="#"><i class="fas fa-thumbs-up"></i> 21 </a>
+                    <a href="#"><i class="fas fa-thumbs-down"></i> 12 </a>
+                    <a href="#"> REPLY</a>
+                </div>
+                </div>
+            </div>
+        </main>
+
+    
+        <aside>
+            <div class="Up"><img src="img/upnext.jpg" alt="Up Next"></div>
+            <div class="Sidecontainer">
+                <div class="box box1">
+                    <img src="img/video2.jpg" alt="Video">
+                    <img src="img/video1.jpg" alt="Video">
+                    <img src="img/video2.jpg" alt="Video">
+                    <img src="img/video1.jpg" alt="Video">
+                    <img src="img/video2.jpg" alt="Video">
+                    <img src="img/video1.jpg" alt="Video">
+                    <img src="img/video2.jpg" alt="Video">
+                    <img src="img/video1.jpg" alt="Video">
+                    <img src="img/video2.jpg" alt="Video">
+                    <img src="img/video1.jpg" alt="Video">
+                </div>
+                <div class="box box2">
+                    <a href="#">Flexbox CSS In 20 Minutes <br><br><p class="para">Traversy Media</p>
+                    <p class="para">938K views·3 years ago</p></a>
+                    <br><br><br><br>
+                    <a href="#">Top 10 Best VS Code Extensions<br><br><p class="para">codeSTACKr</p>
+                    <p class="para">440K views·11 months ago</p></a>
+                    <br><br><br><br>
+                    <a href="#">Flexbox CSS In 20 Minutes<br><br><p class="para">Traversy Media</p>
+                    <p class="para">938K views·3 years ago</p></a>
+                    <br><br><br>
+                    <a href="#">Top 10 Best VS Code Extensions<br><br><p class="para">codeSTACKr</p>
+                    <p class="para">440K views·11 months ago</p></a>
+                    <br><br><br><br>
+                    <a href="#">Flexbox CSS In 20 Minutes<br><br><p class="para">Traversy Media</p>
+                    <p class="para">938K views·3 years ago</p></a>
+                    <br><br><br><br>
+                    <a href="#">Top 10 Best VS Code Extensions<br><br><p class="para">codeSTACKr</p>
+                    <p class="para">440K views·11 months ago</p></a>
+                    <br><br><br><br>
+                    <a href="#">Flexbox CSS In 20 Minutes<br><br><p class="para">Traversy Media</p>
+                    <p class="para">938K views·3 years ago</p></a>
+                    <br><br><br>
+                    <a href="#">Top 10 Best VS Code Extensions<br><br><p class="para">codeSTACKr</p>
+                    <p class="para">440K views·11 months ago</p></a>
+                    <br><br><br><br>
+                    <a href="#">Flexbox CSS In 20 Minutes<br><br><p class="para">Traversy Media</p>
+                    <p class="para">938K views·3 years ago</p></a>
+                    <br><br><br><br>
+                    <a href="#">Top 10 Best VS Code Extensions<br><br><p class="para">codeSTACKr</p>
+                    <p class="para">440K views·11 months ago</p></a>
+                    <br><br><br><br>
+                </div>
+            </div>
+        </aside>
+
+
+</div>
 </body>
 </html>

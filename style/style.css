@@ -1,1 +1,331 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fffcfc;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 60px 0px 0px 0px;
+}
+
+aside {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 35%;
+          flex: 1 1 35%;
+  
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 65%;
+          flex: 1 1 65%;
+  display: block;
+  line-height: 25px;
+  font-size: 10px;
+  font-family: Roboto, Arial, serif;
+  margin: 0px 0px 0px 24px;
+  padding: 24px 24px 0px 0px;
+  color: black;
+}
+
+.videoplayer__item {
+  width: 100%;
+  display: block;
+}
+
+.description {
+  border-bottom: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 0px 8px;
+}
+
+.description__upper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.description__upper h3 {
+  color: #030303;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.description__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+.description__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.description__left p {
+  color: #606060;
+  font-size: 14px;
+}
+
+.description__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.description__right li {
+  font-weight: 600;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 8px 0px 20px;
+}
+
+.description__right li a {
+  color: #606060;
+  font-size: 13px;
+}
+
+.channel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid grey;
+  padding: 0px 0px 10px 0px;
+}
+
+.channel__upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0px 0px 12px;
+  padding: 16px 0px 0px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+.channel__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.channel__left img {
+  width: 50px;
+  height: 50px;
+}
+
+.channel__left a {
+  display: inline-block;
+  padding: 5px 0px 0px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #030303;
+  cursor: pointer;
+}
+
+.channel__left p {
+  display: inline-block;
+  padding: 0px 0px 5px 10px;
+  font-size: 13px;
+  margin: 0px 4px 0px 0px;
+}
+
+.channel__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.channel__right button {
+  display: inline-block;
+  color: #ffffff;
+  background: #cc0000;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 16px;
+  width: 115px;
+  height: 35px;
+  margin: 10px 0px 0px 0px;
+}
+
+.channel__text {
+  font-size: 14px;
+  color: #030303;
+  margin: 0px 64px 0px 64px;
+}
+
+.channel__text a {
+  font-size: 13px;
+  color: #606060;
+  margin: 8px 0px 0px;
+  font-weight: 600;
+}
+
+.comment {
+  display: inline-block;
+  margin: 30px 0px 0px 0px;
+}
+
+.comment p {
+  display: inline-block;
+  font-size: 16px;
+  color: #030303;
+  font-weight: 500;
+  padding: 0px 20px 0px 0px;
+}
+
+.comment a {
+  display: inline-block;
+  color: #606060;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mycomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 40px 0px 0px 0px;
+}
+
+.mycomment__left img {
+  width: 50px;
+  height: 50px;
+}
+
+.mycomment__right {
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid gray;
+  margin: 0px 0px 0px 20px;
+}
+
+.mycomment__right input {
+  background: #EEEEEE;
+}
+
+.usercomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 30px 0px 0px 0px;
+  position: relative;
+}
+
+.usercomment:hover .dotslink {
+  visibility: visible;
+}
+
+.usercomment__left img {
+  width: 50px;
+  height: 50px;
+}
+
+.dotslink {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 20px;
+  color: gray;
+  visibility: hidden;
+}
+
+.usercomment__right {
+  padding: 0px 50px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+
+.usercomment__right a {
+  font-size: 13px;
+  color: #030303;
+}
+
+.usercomment__right p {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.usercomment__lower {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.usercomment__lower a {
+  display: inline-block;
+  padding: 0px 20px 0px 0px;
+  color: #909090;
+}
+
+.usercomment__lower a:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,124 @@
+body {
+    background: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  background:#FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  min-height: 6vh;
+  padding-top: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+   text-justify: distribute-all-lines;
+}
+
+.navbar__left{
+  width: 200px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.wrapper .search {
+  width: 577px;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  border: 2px solid rgba(189, 189, 189, 0.123);
+  padding-left: 8px;
+  font-size: 17px;
+}
+
+.wrapper button {
+  padding: .4rem 1.8rem;
+  border: 1px solid rgba(230, 230, 230, 0.432);
+}
+
+.navbar__right{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 220px;
+  
+}
+
+header ul {
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navbar li {
+  vertical-align: top;
+  display: inline-block;
+  zoom: 1;
+}
+
+.iconify { color: rgb(88, 88, 88);
+  cursor: pointer;
+}
+
+.navbar img{
+  cursor: pointer;
+}
+
+
+.box a{
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 120vh;
+  cursor: pointer;
+}
+
+.para{
+    font-weight: normal;
+    color: gray;
+}
+
+.box1{
+    width: 190px; 
+    background:white;
+    cursor: pointer;
+}
+.box2{
+    width: 230px;
+    background:white;
+    padding-top: 10px;
+}
+
+.Sidecontainer { 
+  display: flex;
+  flex-direction: row;
+  border: 10px rgb(25, 112, 71);
+  padding-top: 0px;
+
+}
+
+.Up{
+  margin-top: 20px;
+  background-color: white;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 0px;
+  cursor: text;
+}
