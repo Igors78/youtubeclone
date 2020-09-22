@@ -4,7 +4,7 @@
 
 > This project is made as part of Microverse HTML/CSS curriculum
 
-![screenshot](./.png)
+![screenshot](./img/Screenshot.png)
 
 Sample of static responsive web page 
 
