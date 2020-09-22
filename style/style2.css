@@ -81,32 +81,33 @@ header ul {
 }
 
 
-.box {
+.box a{
   color:black;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  width: 400px;
-  height: 130px;
+  font-weight: bold;
+  height: 120vh;
+  cursor: pointer;
 }
 
-.box1{ background: royalblue;}
-.box2{ background: seagreen;}
-.box3{ background: royalblue;}
-.box4{ background: seagreen;}
-.box5{ background: royalblue;}
-.box6{ background: seagreen;}
-.box7{ background: royalblue;}
-.box8{ background: seagreen;}
-.box9{ background: royalblue;}
-.box10{ background: seagreen;}
-.box11{ background: royalblue;}
-.box12{ background: seagreen;}
-.box13{ background: royalblue;}
-.box14{ background: wheat;}
-.box15{ background: white;}
+.para{
+    font-weight: normal;
+    color: gray;
+}
 
-.containerflex { 
+.box1{
+    width: 190px; 
+    background:white;
+    cursor: pointer;
+}
+.box2{
+    width: 230px;
+    background:white;
+    padding-top: 10px;
+}
+
+.container { 
   display: flex;
-  flex-direction: column;
-  float: right;
+  flex-direction: row;
+  border: 10px rgb(25, 112, 71);
 }
