@@ -13,6 +13,10 @@ Sample of static responsive web page
 - HTML
 - CSS/SCSS
 
+## HTML validation
+
+![screenshot](./img/.png)
+
 
 ## Live Demo
 
