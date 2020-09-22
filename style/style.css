@@ -119,7 +119,6 @@ main {
 }
 
 .channel {
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,7 +141,6 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
-  border: 1px solid black;
 }
 
 .channel__left {
@@ -156,7 +154,6 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
-  border: 1px solid black;
 }
 
 .channel__left img {
@@ -190,12 +187,10 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
-  border: 1px solid black;
 }
 
 .channel__right button {
   display: inline-block;
-  border: 1px solid black;
   color: #ffffff;
   background: #cc0000;
   font-size: 14px;

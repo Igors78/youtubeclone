@@ -16,7 +16,7 @@ Sample of static responsive web page
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://igors78.github.io/youtubeclone/)
 
 
 ## Getting Started
@@ -30,11 +30,18 @@ Sample of static responsive web page
 
 ## Authors
 
-👤 **Author**
+👤 **Igors Oleinikovs**
 
 - GitHub: [@github](https://github.com/Igors78)
 - Twitter: [@twitter](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
+
+
+👤 **Alan Solis**
+
+- GitHub: [@github](https://github.com/)
+- Twitter: [@twitter](https://twitter.com/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/)
 
 
 
