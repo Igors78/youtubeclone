@@ -15,7 +15,7 @@ Sample of static responsive web page
 
 ## HTML validation
 
-![screenshot](./img/.png)
+![screenshot](./img/validation.png)
 
 
 ## Live Demo
