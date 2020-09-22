@@ -111,3 +111,12 @@ header ul {
   flex-direction: row;
   border: 10px rgb(25, 112, 71);
 }
+
+.Up{
+  margin-top: 20px;
+  background-color: white;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 0px;
+  cursor: text;
+}
