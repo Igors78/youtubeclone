@@ -39,9 +39,9 @@ Sample of static responsive web page
 
 👤 **Alan Solis**
 
-- GitHub: [@github](https://github.com/)
-- Twitter: [@twitter](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/)
+- GitHub: [@github](https://github.com/warblo001)
+- Twitter: [@twitter](https://twitter.com/Alan55572391)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alan-solis-b567b044/)
 
 
 
