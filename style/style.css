@@ -265,6 +265,10 @@ main {
   margin: 0px 0px 0px 20px;
 }
 
+.mycomment__right input {
+  background: #EEEEEE;
+}
+
 .usercomment {
   display: -webkit-box;
   display: -ms-flexbox;
