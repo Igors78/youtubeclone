@@ -215,4 +215,22 @@ main {
   margin: 8px 0px 0px;
   font-weight: 600;
 }
+
+.comment {
+  display: inline-block;
+}
+
+.comment p {
+  display: inline-block;
+  font-size: 16px;
+  color: #030303;
+  font-weight: 600;
+}
+
+.comment a {
+  display: inline-block;
+  color: #606060;
+  font-size: 14px;
+  font-weight: 600;
+}
 /*# sourceMappingURL=style.css.map */
