@@ -5,9 +5,21 @@
 header {
     background: rgb(255, 252, 252);
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    flex: 1 1 35%;
+}
+
+
 main{
+    flex: 1 1 65%;
     display: block;
-    width: 65%;
+    //width: 65%;
     line-height: 25px;
     font-size: 10px;
     font-family: Roboto, Arial, serif;
@@ -138,4 +150,16 @@ main{
         height: 40px;
         margin: 10px 0px 0px 0px;
     }
+}
+
+.channel__text {
+    font-size: 14px;
+    color: #030303;
+    margin: 0px 64px 0px 64px;
+        a{
+            font-size: 13px;
+            color: #606060;
+            margin: 8px 0px 0px;
+            font-weight: 600;
+        }
 }
