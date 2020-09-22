@@ -85,6 +85,8 @@ main{
 .channel {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid grey;
+    padding: 0px 0px 10px 0px;
 }
 
 .channel__upper{
@@ -131,8 +133,8 @@ main{
         font-size: 14px;
         font-weight: 600;
         padding: 10px 16px;
-        width: 120px;
-        height: 40px;
+        width: 115px;
+        height: 35px;
         margin: 10px 0px 0px 0px;
     }
 }
