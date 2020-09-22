@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background: #fffcfc;
 }
 
@@ -11,6 +14,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 60px 0px 0px 0px;
 }
 
 aside {
@@ -218,13 +222,15 @@ main {
 
 .comment {
   display: inline-block;
+  margin: 30px 0px 0px 0px;
 }
 
 .comment p {
   display: inline-block;
   font-size: 16px;
   color: #030303;
-  font-weight: 600;
+  font-weight: 500;
+  padding: 0px 20px 0px 0px;
 }
 
 .comment a {
@@ -232,5 +238,46 @@ main {
   color: #606060;
   font-size: 14px;
   font-weight: 600;
+}
+
+.mycomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 40px 0px 0px 0px;
+}
+
+.mycomment__left img {
+  width: 50px;
+  height: 50px;
+}
+
+.mycomment__right {
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid gray;
+  margin: 0px 0px 0px 20px;
+}
+
+.usercomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 30px 0px 0px 0px;
+  border: 1px solid red;
+}
+
+.usercomment__left img {
+  width: 50px;
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */

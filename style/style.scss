@@ -3,12 +3,16 @@
 
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: rgb(255, 252, 252);
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    margin: 60px 0px 0px 0px;
 }
 
 aside {
@@ -153,11 +157,13 @@ main {
 
 .comment {
     display: inline-block;
+    margin: 30px 0px 0px 0px;
     p {
         display: inline-block;
         font-size: 16px;
         color: #030303;
-        font-weight: 600;
+        font-weight: 500;
+        padding: 0px 20px 0px 0px;
     }
     a {
         display: inline-block;
@@ -165,4 +171,49 @@ main {
         font-size: 14px;
         font-weight: 600;
     }
+}
+
+.mycomment {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px 0px 0px;
+}
+
+.mycomment__left {
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.mycomment__right {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid gray;
+    margin: 0px 0px 0px 20px;
+}
+
+
+.usercomment {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 0px 0px;
+    border: 1px solid red;
+    
+}
+
+.usercomment__left {
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.dotslink {
+
+}
+
+.usercomment__right{
+    
 }
