@@ -106,10 +106,12 @@ header ul {
     padding-top: 10px;
 }
 
-.container { 
+.Sidecontainer { 
   display: flex;
   flex-direction: row;
   border: 10px rgb(25, 112, 71);
+  padding-top: 0px;
+
 }
 
 .Up{
