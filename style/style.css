@@ -273,7 +273,11 @@ main {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 30px 0px 0px 0px;
-  border: 1px solid red;
+  position: relative;
+}
+
+.usercomment:hover .dotslink {
+  visibility: visible;
 }
 
 .usercomment__left img {
@@ -281,12 +285,42 @@ main {
   height: 50px;
 }
 
+.dotslink {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 20px;
+  color: gray;
+  visibility: hidden;
+}
+
 .usercomment__right {
+  padding: 0px 50px 0px 0px;
   margin: 0px 0px 0px 20px;
 }
 
 .usercomment__right a {
   font-size: 13px;
   color: #030303;
+}
+
+.usercomment__right p {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.usercomment__lower {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.usercomment__lower a {
+  display: inline-block;
+  padding: 0px 20px 0px 0px;
+  color: #909090;
+}
+
+.usercomment__lower a:hover {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
